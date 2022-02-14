@@ -1,0 +1,25 @@
+Name - Rugved Manoorkar
+Student ID - 
+Email address - rugvedprasad.manoorkar@sjsu.edu
+
+These instructions are for running in an IDE
+1. Import the given files in a new Maven project
+2. Enter following dependency in Maven pom.xml:
+
+    <dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+3. Change the name of person following line in beans.xml
+
+<property name="name" value="Rugved"/>
+
+4. Compile and run HelloWorldApplication.java
